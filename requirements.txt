@@ -1,0 +1,38 @@
+# Spark AI Assistant Dependencies
+
+# Core Dependencies
+numpy
+spacy
+transformers
+onnxruntime
+
+# UI Dependencies
+PyQt6
+PySide6
+
+# Speech Processing
+pyttsx3
+SpeechRecognition
+# pyaudio - Requires system dependencies, install with: sudo apt-get install portaudio19-dev
+
+# Computer Vision
+opencv-python
+pytesseract
+face_recognition
+
+# System Integration
+psutil
+pywinauto
+keyboard
+mouse
+# pywin32 - Windows-only, install on target Windows platform
+
+# Web and Communication
+flask
+fastapi
+python-socketio
+requests
+
+# Note: Some packages may require additional system dependencies
+# For Windows deployment, add: pywin32
+# For wake word detection, add: snowboy or porcupine
